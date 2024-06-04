@@ -1,0 +1,1389 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>SALA2</title>
+<style>
+body {
+    font-family: Verdana;
+    font-size: 10pt;
+}
+table {
+    width: 90%;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+th, td {
+    border: 1px solid #000;
+    padding: 5px;
+    text-align: center;
+}
+th {
+    background-color: #D6E7FA;
+}
+tr:nth-child(even) {
+    background-color: #E8F1FE;
+}
+.closed {
+    background-color: #b2aaaa;
+}
+.free {
+    background-color: #DFFAC4;
+}
+.reserved {
+    background-color: #FFCCCB;
+}
+h1, h2 {
+    text-align: center;
+}
+</style>
+</head>
+<body>
+<h1>SALA2</h1>
+<h2>May 2024</h2>
+<table>
+<thead>
+<tr>
+<th colspan="8">Week 18</th>
+</tr>
+<tr>
+<th>Hour</th>
+<th>Monday</th>
+<th>Tuesday</th>
+<th>Wednesday</th>
+<th>Thursday</th>
+<th>Friday</th>
+<th>Saturday</th>
+<th>Sunday</th>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td>1</td>
+<td>2</td>
+<td>3</td>
+<td>4</td>
+<td>5</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0:00 - 1:00</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+<tr>
+<td>1:00 - 2:00</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+<tr>
+<td>2:00 - 3:00</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+<tr>
+<td>3:00 - 4:00</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+<tr>
+<td>4:00 - 5:00</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+<tr>
+<td>5:00 - 6:00</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+<tr>
+<td>6:00 - 7:00</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+<tr>
+<td>7:00 - 8:00</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+<tr>
+<td>8:00 - 9:00</td>
+<td class="free">Free</td>
+<td class="reserved">ReuniónDesarrolladores</td>
+<td class="reserved">ReuniónStartup</td>
+<td class="reserved">ReuniónStartup</td>
+<td class="reserved">ReuniónStartup</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+<tr>
+<td>9:00 - 10:00</td>
+<td class="free">Free</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+<tr>
+<td>10:00 - 11:00</td>
+<td class="free">Free</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+<tr>
+<td>11:00 - 12:00</td>
+<td class="free">Free</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+<tr>
+<td>12:00 - 13:00</td>
+<td class="free">Free</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+<tr>
+<td>13:00 - 14:00</td>
+<td class="free">Free</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+<tr>
+<td>14:00 - 15:00</td>
+<td class="free">Free</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+<tr>
+<td>15:00 - 16:00</td>
+<td class="free">Free</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+<tr>
+<td>16:00 - 17:00</td>
+<td class="free">Free</td>
+<td class="reserved">ReuniónDesarrolladores</td>
+<td class="reserved">ReuniónDesarrolladores</td>
+<td class="reserved">ReuniónDesarrolladores</td>
+<td class="reserved">ReuniónDesarrolladores</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+<tr>
+<td>17:00 - 18:00</td>
+<td class="free">Free</td>
+<td class="reserved">ReuniónDesarrolladores</td>
+<td class="reserved">ReuniónDesarrolladores</td>
+<td class="reserved">ReuniónDesarrolladores</td>
+<td class="reserved">ReuniónDesarrolladores</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+<tr>
+<td>18:00 - 19:00</td>
+<td class="free">Free</td>
+<td class="reserved">ReuniónDesarrolladores</td>
+<td class="reserved">ReuniónDesarrolladores</td>
+<td class="reserved">ReuniónDesarrolladores</td>
+<td class="reserved">ReuniónDesarrolladores</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+<tr>
+<td>19:00 - 20:00</td>
+<td class="free">Free</td>
+<td class="reserved">ReuniónDesarrolladores</td>
+<td class="reserved">ReuniónDesarrolladores</td>
+<td class="reserved">ReuniónDesarrolladores</td>
+<td class="reserved">ReuniónDesarrolladores</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+<tr>
+<td>20:00 - 21:00</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+<tr>
+<td>21:00 - 22:00</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+<tr>
+<td>22:00 - 23:00</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+<tr>
+<td>23:00 - 24:00</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th colspan="8">Week 19</th>
+</tr>
+<tr>
+<th>Hour</th>
+<th>Monday</th>
+<th>Tuesday</th>
+<th>Wednesday</th>
+<th>Thursday</th>
+<th>Friday</th>
+<th>Saturday</th>
+<th>Sunday</th>
+</tr>
+<tr>
+<td></td>
+<td>6</td>
+<td>7</td>
+<td>8</td>
+<td>9</td>
+<td>10</td>
+<td>11</td>
+<td>12</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0:00 - 1:00</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+<tr>
+<td>1:00 - 2:00</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+<tr>
+<td>2:00 - 3:00</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+<tr>
+<td>3:00 - 4:00</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+<tr>
+<td>4:00 - 5:00</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+<tr>
+<td>5:00 - 6:00</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+<tr>
+<td>6:00 - 7:00</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+<tr>
+<td>7:00 - 8:00</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+<tr>
+<td>8:00 - 9:00</td>
+<td class="reserved">ReuniónDesarrolladores</td>
+<td class="reserved">ReuniónDesarrolladores</td>
+<td class="reserved">ReuniónStartup</td>
+<td class="reserved">ReuniónStartup</td>
+<td class="reserved">ReuniónStartup</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+<tr>
+<td>9:00 - 10:00</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+<tr>
+<td>10:00 - 11:00</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+<tr>
+<td>11:00 - 12:00</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+<tr>
+<td>12:00 - 13:00</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+<tr>
+<td>13:00 - 14:00</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+<tr>
+<td>14:00 - 15:00</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+<tr>
+<td>15:00 - 16:00</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+<tr>
+<td>16:00 - 17:00</td>
+<td class="reserved">ReuniónDesarrolladores</td>
+<td class="reserved">ReuniónDesarrolladores</td>
+<td class="reserved">ReuniónDesarrolladores</td>
+<td class="reserved">ReuniónDesarrolladores</td>
+<td class="reserved">ReuniónDesarrolladores</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+<tr>
+<td>17:00 - 18:00</td>
+<td class="reserved">ReuniónDesarrolladores</td>
+<td class="reserved">ReuniónDesarrolladores</td>
+<td class="reserved">ReuniónDesarrolladores</td>
+<td class="reserved">ReuniónDesarrolladores</td>
+<td class="reserved">ReuniónDesarrolladores</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+<tr>
+<td>18:00 - 19:00</td>
+<td class="reserved">ReuniónDesarrolladores</td>
+<td class="reserved">ReuniónDesarrolladores</td>
+<td class="reserved">ReuniónDesarrolladores</td>
+<td class="reserved">ReuniónDesarrolladores</td>
+<td class="reserved">ReuniónDesarrolladores</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+<tr>
+<td>19:00 - 20:00</td>
+<td class="reserved">ReuniónDesarrolladores</td>
+<td class="reserved">ReuniónDesarrolladores</td>
+<td class="reserved">ReuniónDesarrolladores</td>
+<td class="reserved">ReuniónDesarrolladores</td>
+<td class="reserved">ReuniónDesarrolladores</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+<tr>
+<td>20:00 - 21:00</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+<tr>
+<td>21:00 - 22:00</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+<tr>
+<td>22:00 - 23:00</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+<tr>
+<td>23:00 - 24:00</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th colspan="8">Week 20</th>
+</tr>
+<tr>
+<th>Hour</th>
+<th>Monday</th>
+<th>Tuesday</th>
+<th>Wednesday</th>
+<th>Thursday</th>
+<th>Friday</th>
+<th>Saturday</th>
+<th>Sunday</th>
+</tr>
+<tr>
+<td></td>
+<td>13</td>
+<td>14</td>
+<td>15</td>
+<td>16</td>
+<td>17</td>
+<td>18</td>
+<td>19</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0:00 - 1:00</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+<tr>
+<td>1:00 - 2:00</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+<tr>
+<td>2:00 - 3:00</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+<tr>
+<td>3:00 - 4:00</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+<tr>
+<td>4:00 - 5:00</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+<tr>
+<td>5:00 - 6:00</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+<tr>
+<td>6:00 - 7:00</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+<tr>
+<td>7:00 - 8:00</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+<tr>
+<td>8:00 - 9:00</td>
+<td class="reserved">ReuniónDesarrolladores</td>
+<td class="reserved">ReuniónDesarrolladores</td>
+<td class="reserved">ReuniónStartup</td>
+<td class="reserved">ReuniónStartup</td>
+<td class="reserved">ReuniónStartup</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+<tr>
+<td>9:00 - 10:00</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+<tr>
+<td>10:00 - 11:00</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+<tr>
+<td>11:00 - 12:00</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+<tr>
+<td>12:00 - 13:00</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+<tr>
+<td>13:00 - 14:00</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+<tr>
+<td>14:00 - 15:00</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+<tr>
+<td>15:00 - 16:00</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+<tr>
+<td>16:00 - 17:00</td>
+<td class="reserved">ReuniónDesarrolladores</td>
+<td class="reserved">ReuniónDesarrolladores</td>
+<td class="reserved">ReuniónDesarrolladores</td>
+<td class="reserved">ReuniónDesarrolladores</td>
+<td class="reserved">ReuniónDesarrolladores</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+<tr>
+<td>17:00 - 18:00</td>
+<td class="reserved">ReuniónDesarrolladores</td>
+<td class="reserved">ReuniónDesarrolladores</td>
+<td class="reserved">ReuniónDesarrolladores</td>
+<td class="reserved">ReuniónDesarrolladores</td>
+<td class="reserved">ReuniónDesarrolladores</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+<tr>
+<td>18:00 - 19:00</td>
+<td class="reserved">ReuniónDesarrolladores</td>
+<td class="reserved">ReuniónDesarrolladores</td>
+<td class="reserved">ReuniónDesarrolladores</td>
+<td class="reserved">ReuniónDesarrolladores</td>
+<td class="reserved">ReuniónDesarrolladores</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+<tr>
+<td>19:00 - 20:00</td>
+<td class="reserved">ReuniónDesarrolladores</td>
+<td class="reserved">ReuniónDesarrolladores</td>
+<td class="reserved">ReuniónDesarrolladores</td>
+<td class="reserved">ReuniónDesarrolladores</td>
+<td class="reserved">ReuniónDesarrolladores</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+<tr>
+<td>20:00 - 21:00</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+<tr>
+<td>21:00 - 22:00</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+<tr>
+<td>22:00 - 23:00</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+<tr>
+<td>23:00 - 24:00</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th colspan="8">Week 21</th>
+</tr>
+<tr>
+<th>Hour</th>
+<th>Monday</th>
+<th>Tuesday</th>
+<th>Wednesday</th>
+<th>Thursday</th>
+<th>Friday</th>
+<th>Saturday</th>
+<th>Sunday</th>
+</tr>
+<tr>
+<td></td>
+<td>20</td>
+<td>21</td>
+<td>22</td>
+<td>23</td>
+<td>24</td>
+<td>25</td>
+<td>26</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0:00 - 1:00</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+<tr>
+<td>1:00 - 2:00</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+<tr>
+<td>2:00 - 3:00</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+<tr>
+<td>3:00 - 4:00</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+<tr>
+<td>4:00 - 5:00</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+<tr>
+<td>5:00 - 6:00</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+<tr>
+<td>6:00 - 7:00</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+<tr>
+<td>7:00 - 8:00</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+<tr>
+<td>8:00 - 9:00</td>
+<td class="reserved">ReuniónDesarrolladores</td>
+<td class="reserved">ReuniónDesarrolladores</td>
+<td class="reserved">ReuniónStartup</td>
+<td class="reserved">ReuniónStartup</td>
+<td class="reserved">ReuniónStartup</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+<tr>
+<td>9:00 - 10:00</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+<tr>
+<td>10:00 - 11:00</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+<tr>
+<td>11:00 - 12:00</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+<tr>
+<td>12:00 - 13:00</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+<tr>
+<td>13:00 - 14:00</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+<tr>
+<td>14:00 - 15:00</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+<tr>
+<td>15:00 - 16:00</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+<tr>
+<td>16:00 - 17:00</td>
+<td class="reserved">ReuniónDesarrolladores</td>
+<td class="reserved">ReuniónDesarrolladores</td>
+<td class="reserved">ReuniónDesarrolladores</td>
+<td class="reserved">ReuniónDesarrolladores</td>
+<td class="reserved">ReuniónDesarrolladores</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+<tr>
+<td>17:00 - 18:00</td>
+<td class="reserved">ReuniónDesarrolladores</td>
+<td class="reserved">ReuniónDesarrolladores</td>
+<td class="reserved">ReuniónDesarrolladores</td>
+<td class="reserved">ReuniónDesarrolladores</td>
+<td class="reserved">ReuniónDesarrolladores</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+<tr>
+<td>18:00 - 19:00</td>
+<td class="reserved">ReuniónDesarrolladores</td>
+<td class="reserved">ReuniónDesarrolladores</td>
+<td class="reserved">ReuniónDesarrolladores</td>
+<td class="reserved">ReuniónDesarrolladores</td>
+<td class="reserved">ReuniónDesarrolladores</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+<tr>
+<td>19:00 - 20:00</td>
+<td class="reserved">ReuniónDesarrolladores</td>
+<td class="reserved">ReuniónDesarrolladores</td>
+<td class="reserved">ReuniónDesarrolladores</td>
+<td class="reserved">ReuniónDesarrolladores</td>
+<td class="reserved">ReuniónDesarrolladores</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+<tr>
+<td>20:00 - 21:00</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+<tr>
+<td>21:00 - 22:00</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+<tr>
+<td>22:00 - 23:00</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+<tr>
+<td>23:00 - 24:00</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th colspan="8">Week 22</th>
+</tr>
+<tr>
+<th>Hour</th>
+<th>Monday</th>
+<th>Tuesday</th>
+<th>Wednesday</th>
+<th>Thursday</th>
+<th>Friday</th>
+<th>Saturday</th>
+<th>Sunday</th>
+</tr>
+<tr>
+<td></td>
+<td>27</td>
+<td>28</td>
+<td>29</td>
+<td>30</td>
+<td>31</td>
+<td></td>
+<td></td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0:00 - 1:00</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+<tr>
+<td>1:00 - 2:00</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+<tr>
+<td>2:00 - 3:00</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+<tr>
+<td>3:00 - 4:00</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+<tr>
+<td>4:00 - 5:00</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+<tr>
+<td>5:00 - 6:00</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+<tr>
+<td>6:00 - 7:00</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+<tr>
+<td>7:00 - 8:00</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="free">Free</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+<tr>
+<td>8:00 - 9:00</td>
+<td class="reserved">ReuniónDesarrolladores</td>
+<td class="reserved">ReuniónDesarrolladores</td>
+<td class="reserved">ReuniónStartup</td>
+<td class="reserved">ReuniónStartup</td>
+<td class="free">Free</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+<tr>
+<td>9:00 - 10:00</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="free">Free</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+<tr>
+<td>10:00 - 11:00</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="free">Free</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+<tr>
+<td>11:00 - 12:00</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="free">Free</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+<tr>
+<td>12:00 - 13:00</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="free">Free</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+<tr>
+<td>13:00 - 14:00</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="free">Free</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+<tr>
+<td>14:00 - 15:00</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="free">Free</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+<tr>
+<td>15:00 - 16:00</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="reserved">ReuniónDiseño</td>
+<td class="free">Free</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+<tr>
+<td>16:00 - 17:00</td>
+<td class="reserved">ReuniónDesarrolladores</td>
+<td class="reserved">ReuniónDesarrolladores</td>
+<td class="reserved">ReuniónDesarrolladores</td>
+<td class="reserved">ReuniónDesarrolladores</td>
+<td class="free">Free</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+<tr>
+<td>17:00 - 18:00</td>
+<td class="reserved">ReuniónDesarrolladores</td>
+<td class="reserved">ReuniónDesarrolladores</td>
+<td class="reserved">ReuniónDesarrolladores</td>
+<td class="reserved">ReuniónDesarrolladores</td>
+<td class="free">Free</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+<tr>
+<td>18:00 - 19:00</td>
+<td class="reserved">ReuniónDesarrolladores</td>
+<td class="reserved">ReuniónDesarrolladores</td>
+<td class="reserved">ReuniónDesarrolladores</td>
+<td class="reserved">ReuniónDesarrolladores</td>
+<td class="free">Free</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+<tr>
+<td>19:00 - 20:00</td>
+<td class="reserved">ReuniónDesarrolladores</td>
+<td class="reserved">ReuniónDesarrolladores</td>
+<td class="reserved">ReuniónDesarrolladores</td>
+<td class="reserved">ReuniónDesarrolladores</td>
+<td class="free">Free</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+<tr>
+<td>20:00 - 21:00</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+<tr>
+<td>21:00 - 22:00</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+<tr>
+<td>22:00 - 23:00</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+<tr>
+<td>23:00 - 24:00</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+<td class="closed">Closed</td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>

@@ -1,0 +1,19 @@
+# Resumen de Incidencias
+# ID Reserva: 4-8
+Nombre Evento: ReuniónArquitectura
+Fecha Inicio: 01/05/2024
+Fecha Fin: 03/05/2024
+Sala: Sala1
+
+# ID Reserva: 12-14
+Nombre Evento: ReuniónStartup
+Fecha Inicio: 27/05/2024
+Fecha Fin: 31/05/2024
+Sala: Sala2
+
+# ID Reserva: 13-15
+Nombre Evento: ReuniónDiseño
+Fecha Inicio: 27/05/2024
+Fecha Fin: 30/05/2024
+Sala: Sala1
+
